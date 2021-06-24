@@ -5,3 +5,11 @@
 <p>
 Use this animated sidebar on your projects, making them look better and professional, also you can customaze it for your requirements.
 </p>
+
+> SCREENSHOTS
+
+<img src="https://github.com/Adogamm/Sidebar-Template/blob/main/screenshots/capture-1.png?raw=true">
+
+<img src="https://github.com/Adogamm/Sidebar-Template/blob/main/screenshots/capture-2.png?raw=true">
+
+<img src="https://github.com/Adogamm/Sidebar-Template/blob/main/screenshots/capture-animated.gif?raw=true">
