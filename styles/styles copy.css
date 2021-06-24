@@ -20,12 +20,133 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    width: 240px;
+    width: 78px;
     background: #efefef;
     padding: 6px 14px;
+    transition: all 0.5s ease
+}
+
+.active {
+    width: 240px;
 }
 
 .logo {
-    height: 70px;
+    height: 75px;
     width: auto;
+    display: block;
+    margin: auto;
+}
+
+.sidebar #btn {
+    position: absolute;
+    color: #000;
+    left: 87%;
+    top: 20px;
+    font-size: 35px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.sidebar ul {
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+}
+
+.sidebar ul li a {
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+
+.sidebar ul li a:hover {
+    color: #fff;
+    background: #ff9945;
+}
+
+.sidebar ul li a i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sidebar .profile-content {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar .profile-content .profile {
+    position: relative;
+    padding: 10px 6px;
+    height: 60px;
+    background: #ff9945;
+}
+
+.profile-content .profile .profile-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-content .profile .profile-details img {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.profile-content .profile .profile-details .name_job {
+    margin-left: 10px;
+}
+
+.profile .profile-details .name_job .name {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile .profile-details .name_job .job {
+    font-size: 12px;
+}
+
+.profile #log-out {
+    position: absolute;
+    left: 88%;
+    bottom: 5px;
+    transform: translateX(-50%);
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.home-content {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 240px);
+    left: 240px;
+}
+
+.home-content .text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+    margin: 12px;
 }
